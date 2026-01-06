@@ -1,0 +1,38 @@
+Usage: python -m uvicorn [OPTIONS] APP
+Try 'python -m uvicorn --help' for help.
+
+Error: Got unexpected extra arguments (dwgplotter dwgplotter_old plot_dwg_to_pdf.scr scripts uvicorn_backend_main.log uvicorn_backend_main.pid)
+Usage: python -m uvicorn [OPTIONS] APP
+Try 'python -m uvicorn --help' for help.
+
+Error: Got unexpected extra arguments (dwgplotter dwgplotter_old plot_dwg_to_pdf.scr scripts uvicorn_backend_main.log uvicorn_backend_main.pid)
+Usage: python -m uvicorn [OPTIONS] APP
+Try 'python -m uvicorn --help' for help.
+
+Error: Got unexpected extra arguments (dwgplotter dwgplotter_old plot_dwg_to_pdf.scr scripts uvicorn_backend_main.log uvicorn_backend_main.pid venv)
+C:\Users\MokZhiZhuan\AppData\Local\Programs\Python\Python312\python.exe: No module named uvicorn
+Usage: python -m uvicorn [OPTIONS] APP
+Try 'python -m uvicorn --help' for help.
+
+Error: Got unexpected extra arguments (dwgplotter dwgplotter_old input output plot_dwg_to_pdf.scr scripts uvicorn_backend_main.log uvicorn_backend_main.pid venv venv311)
+C:\Users\MokZhiZhuan\AppData\Local\Programs\Python\Python312\python.exe: No module named uvicorn
+Usage: python -m uvicorn [OPTIONS] APP
+Try 'python -m uvicorn --help' for help.
+
+Error: Got unexpected extra arguments (dwgplotter dwgplotter_old input output plot_dwg_to_pdf.scr scripts uvicorn_backend_main.log uvicorn_backend_main.pid venv venv311)
+Usage: python -m uvicorn [OPTIONS] APP
+Try 'python -m uvicorn --help' for help.
+
+Error: Got unexpected extra arguments (dwgplotter dwgplotter_old input output plot_dwg_to_pdf.scr scripts uvicorn_backend_main.log uvicorn_backend_main.pid venv venv311)
+Usage: python -m uvicorn [OPTIONS] APP
+Try 'python -m uvicorn --help' for help.
+
+Error: Got unexpected extra arguments (dwgplotter dwgplotter_old input output plot_dwg_to_pdf.scr scripts uvicorn_backend_main.log uvicorn_backend_main.pid venv venv311)
+Usage: python -m uvicorn [OPTIONS] APP
+Try 'python -m uvicorn --help' for help.
+
+Error: Got unexpected extra arguments (dwgplotter dwgplotter_old input output plot_dwg_to_pdf.scr scripts uvicorn_backend_main.log uvicorn_backend_main.pid venv venv311)
+Usage: python -m uvicorn [OPTIONS] APP
+Try 'python -m uvicorn --help' for help.
+
+Error: Got unexpected extra arguments (dwgplotter dwgplotter_old input output plot_dwg_to_pdf.scr scripts uvicorn_backend_main.log uvicorn_backend_main.pid venv venv311)

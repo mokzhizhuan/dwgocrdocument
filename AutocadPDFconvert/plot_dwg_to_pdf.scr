@@ -1,0 +1,27 @@
+FILEDIA 0
+CMDDIA 0
+
+_.LAYOUT SET "tender"
+
+-plot
+Y
+;
+"DWG To PDF.pc3"
+"ISO full bleed A1 (841.00 x 594.00 MM)"
+W
+0,0
+841,594
+F
+N
+Y
+"monochrome.ctb"
+Y
+N
+N
+N
+L
+Y
+"C:\\dwg_plot_temp\\output.pdf"
+Y
+
+QUIT
