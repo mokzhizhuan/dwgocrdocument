@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+/* =====================================================
+   BASE
+===================================================== */
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont;
+  letter-spacing: -0.01em;
+  background: #ffffff;
+  color: #37352f;
+}
+
+.page {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+/* =====================================================
+   CARDS
+===================================================== */
+.card {
+  background: #f7f7f5;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 16px 0;
+}
+
+/* =====================================================
+   SUMMARY
+===================================================== */
+.summaryCard {
+  display: flex;
+  gap: 24px;
+  font-size: 13px;
+}
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+.primaryBtn {
+  background: #37352f;
+  color: #ffffff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 120ms ease, opacity 120ms ease;
+}
+
+.primaryBtn:hover:not(:disabled) {
+  background: #2f2e2a;
+}
+
+.primaryBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.downloadBtn:hover {
+  background: #2f2e2a;
+}
+
+/* =====================================================
+   TABLE ROWS
+===================================================== */
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 4px;
+  border-bottom: 1px solid #e6e6e3;
+  transition: background 120ms ease, transform 120ms ease;
+}
+
+.row:hover {
+  background: rgba(59, 130, 246, 0.06);
+  transform: translateX(2px);
+}
+
+/* =====================================================
+   FILE NAME
+===================================================== */
+.fileName {
+  flex: 1;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* =====================================================
+   PROGRESS BAR
+===================================================== */
+.progressCell {
+  width: 160px;
+}
+
+.progressBar {
+  height: 6px;
+  background: #e6e6e3;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  border-radius: 999px;
+  transition: width 200ms ease, box-shadow 120ms ease;
+}
+
+/* Progress glow on hover */
+.row:hover .progressFill {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+/* =====================================================
+   STATUS
+===================================================== */
+.status {
+  min-width: 110px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background 120ms ease, color 120ms ease;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+/* Done */
+.status.done {
+  color: #137333;
+}
+
+.row:hover .status.done {
+  background: rgba(22, 163, 74, 0.12);
+}
+
+/* Failed */
+.status.fail {
+  color: #b3261e;
+}
+
+.row:hover .status.fail {
+  background: rgba(220, 38, 38, 0.12);
+}
+
+/* Running */
+.status.running {
+  color: #2563eb;
+}
+
+.row:hover .status.running {
+  background: rgba(59, 130, 246, 0.12);
+}
+
+/* =====================================================
+   DARK MODE
+===================================================== */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #191919;
+    color: #e6e6e6;
+  }
+
+  .card {
+    background: #202020;
+  }
+
+  .row {
+    border-bottom: 1px solid #2a2a2a;
+  }
+
+  .row:hover {
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .progressBar {
+    background: #2a2a2a;
+  }
+
+  .primaryBtn {
+    background: #e6e6e6;
+    color: #191919;
+  }
+
+  .primaryBtn:hover:not(:disabled) {
+    background: #d4d4d4;
+  }
+
+  .status.done {
+    color: #6ee7b7;
+  }
+
+  .status.fail {
+    color: #fca5a5;
+  }
+
+  .status.running {
+    color: #93c5fd;
+  }
+}
+/* Smooth list movement */
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.row {
+  transition:
+    transform 220ms ease,
+    opacity 180ms ease,
+    background 120ms ease;
+}
+
+/* Subtle enter animation */
+.row {
+  animation: rowEnter 200ms ease;
+}
+
+@keyframes rowEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Collapsible card */
+.card.collapsible {
+  overflow: hidden;
+  transition: max-height 260ms ease, opacity 200ms ease;
+  max-height: 1200px;
+}
+
+/* Minimized state */
+.card.collapsible.collapsed {
+  max-height: 52px;
+  opacity: 0.85;
+}
+
+/* Hide table when collapsed */
+.card.collapsible.collapsed .table {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+/* Header stays visible */
+.card.collapsible h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Chevron indicator */
+.card.collapsible h3::after {
+  content: "▾";
+  font-size: 14px;
+  transition: transform 180ms ease;
+}
+
+.card.collapsible.collapsed h3::after {
+  transform: rotate(-90deg);
+}
+
+.filePickerRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.fileBtn {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.fileBtn:hover {
+  background: #f5f5f5;
+}
+
+.fileInfo {
+  font-size: 14px;
+  color: #444;
+  white-space: nowrap;
+}
+
+.progressFill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+/* Running */
+.progress-running {
+  background: linear-gradient(90deg, #999, #ccc);
+  animation: loadingMove 1.2s linear infinite;
+}
+
+/* Success */
+.progress-success {
+  background: #2ea043;
+  animation: none;
+}
+
+/* Failed */
+.progress-error {
+  background: #d1242f;
+  animation: none;
+}
+
+/* Optional pulse for failure (nice UX) */
+.progress-error {
+  animation: errorPulse 1.2s ease-out;
+}
+
+@keyframes errorPulse {
+  0% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+@keyframes loadingMove {
+  from { transform: translateX(-60%); }
+  to   { transform: translateX(100%); }
+}
