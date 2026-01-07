@@ -9,7 +9,7 @@ Download and install the python plugins text file <br/>
 --- 
 
 Create Adobe Account(each account only have 500 uses per month)<br/>
-Go to https://developer.adobe.com/document-services/apis/pdf-services/#
+Go to https://developer.adobe.com/document-services/apis/pdf-services/# and start for free 
 <img width="1887" height="590" alt="image" src="https://github.com/user-attachments/assets/4a6008d5-b289-4e0a-b81e-ceae3266d552" />
 
 # Create Credentials 
