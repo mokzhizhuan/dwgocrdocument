@@ -3,7 +3,8 @@ Please read the text document below to activate python 3.11
 [pythondownloadinstruction.txt](https://github.com/user-attachments/files/24467423/pythondownloadinstruction.txt)​<br/>
 Install the text file <br/>
 [requirements.txt](https://github.com/user-attachments/files/24467460/requirements.txt) <br/>
---- <br/>
+--- 
+<br/>
 # Guidelines: <br/>
 --- <br/>
 Create Adobe Account(each account only have 500 uses per month)<br/>
