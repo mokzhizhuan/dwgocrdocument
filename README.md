@@ -24,7 +24,7 @@ This is personal info step: <br/>
 with cilent secret <br/>
 <img width="650" height="439" alt="image" src="https://github.com/user-attachments/assets/1eb4335a-379d-4e72-b4ae-203c9c44bd8c" /><br/>
 <h1 style="color:red;">
-  Warning : Please keep this personally for your own use
+  Warning : Please keep your API personally for your own use :
 </h1>
 
 --- 
