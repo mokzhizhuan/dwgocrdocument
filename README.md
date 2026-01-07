@@ -9,10 +9,36 @@ Create Credentials <br />
 <img width="1381" height="759" alt="image" src="https://github.com/user-attachments/assets/31e7b07d-3ca2-4622-9325-1139ddf0169c" /> <br/>
 when create credentials , name your Credentials Name , and tick By creating credentials, you are agreeing to our developer terms. <br/>
 Once it is finalized , press the Create credentials button <br/>
-<img width="634" height="499" alt="image" src="https://github.com/user-attachments/assets/f4c47d6d-780d-4cf6-b82c-47a3379bb86a" />
-
-
+This is personal info step: <br/>
+<img width="634" height="499" alt="image" src="https://github.com/user-attachments/assets/f4c47d6d-780d-4cf6-b82c-47a3379bb86a" /><br/>
+with cilent secret <br/>
+<img width="650" height="439" alt="image" src="https://github.com/user-attachments/assets/1eb4335a-379d-4e72-b4ae-203c9c44bd8c" /><br/>
+Warning : Please keep this personally for your own use <br/>
+<br/>
+After you create the API please follow the command or fill in the set_adobe_pdf_env.ps1 <br />
+$env:PDF_SERVICES_CLIENT_ID = "PASTE_CLIENT_ID_HERE" <br/>
+$env:PDF_SERVICES_CLIENT_SECRET = "PASTE_CLIENT_SECRET_HERE" <br/>
+$env:PDF_SERVICES_ORG_ID = "PASTE_ORGANIZATION_ID_HERE" <br/>
+After filling run the script .\set_adobe_pdf_env.ps1(from AutocadPDFconvert folder)
+<br/>
+Command: <br />
 setx PDF_SERVICES_CLIENT_ID "PASTE_CLIENT_ID_HERE"  <br/>
 setx PDF_SERVICES_CLIENT_SECRET "PASTE_CLIENT_SECRET_HERE"  <br/>
 setx PDF_SERVICES_ORG_ID "PASTE_ORGANIZATION_ID_HERE"  <br/>
+For double checking run <br/>
+echo $env:PDF_SERVICES_CLIENT_ID <br/>
+echo $env:PDF_SERVICES_CLIENT_SECRET <br/>
+echo $env:PDF_SERVICES_ORG_ID <br/>
+it will show cilent id , cilent secret and org ID in the powershell which operate my python file <br/>
+After all these procedures , cd dwgplotter to the react folder and run npm run dev <br/>
+Once you are in the website with localhost <br/>
+ <img width="944" height="396" alt="image" src="https://github.com/user-attachments/assets/ba091b14-44e7-4b69-abc9-fddd38dfaca5" /><br/>
+ Press Choose Files<br/>
+ <img width="937" height="523" alt="image" src="https://github.com/user-attachments/assets/80249948-8f57-4c70-a6e8-ad142bce99bc" /><br/>
+ Once you see the directory , choose the folder and press upload.(make sure the folder must have pdf file , otherwise it cannot work)<br/>
+ 
+ 
+
+
+
 
