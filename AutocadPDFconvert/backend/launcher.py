@@ -20,7 +20,6 @@ APP = os.getenv("APP", "backend.main:app")  # FastAPI app
 # APP = os.getenv("APP", "dwg_plot_api:app")
 
 WORKERS = int(os.getenv("WORKERS", "1"))
-EXTRA = os.getenv("UVICORN_EXTRA", "")
 CHECK_HOSTS = [os.getenv("CHECK_HOST", "127.0.0.1"), "localhost"]
 
 # Run uvicorn from project root
@@ -58,21 +57,16 @@ def is_alive(pid: int) -> bool:
 
 
 def _build_cmd():
-    """Build the uvicorn command (uvicorn backend.dwg_plot_api:app ...)."""
+    """Build the uvicorn command using venv311 explicitly."""
 
-    # Prefer venv if it exists (Windows or Linux)
-    venv_win = ROOT_DIR / ".venv" / "Scripts" / "python.exe"
-    venv_unix = ROOT_DIR / ".venv" / "bin" / "python3"
+    python_bin = ROOT_DIR / "venv311" / "Scripts" / "python.exe"
 
-    if venv_win.exists():
-        python_bin = str(venv_win)
-    elif venv_unix.exists():
-        python_bin = str(venv_unix)
-    else:
-        python_bin = sys.executable
+    if not python_bin.exists():
+        print("ERROR: venv311 python not found:", python_bin)
+        sys.exit(1)
 
     cmd = [
-        python_bin,
+        str(python_bin),
         "-m",
         "uvicorn",
         APP,
@@ -82,16 +76,11 @@ def _build_cmd():
         str(PORT),
         "--workers",
         str(WORKERS),
-        "--proxy-headers",
-        "--forwarded-allow-ips",
-        "*",
         "--log-level",
         "info",
     ]
-    if EXTRA.strip():
-        cmd.extend(EXTRA.split())
-    return cmd
 
+    return cmd
 
 def start():
     """Start uvicorn if not already running."""

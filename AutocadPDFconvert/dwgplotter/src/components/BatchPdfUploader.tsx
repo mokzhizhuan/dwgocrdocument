@@ -171,7 +171,7 @@ export default function BatchPdfUploader() {
           disabled={!files || converting}
           onClick={handleConvert}
         >
-          {converting ? "Converting…" : "Start Batch Conversion"}
+          {converting ? "Converting…" : "Convert"}
         </button>
       </div>
 
