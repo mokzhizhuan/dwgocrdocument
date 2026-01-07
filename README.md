@@ -36,7 +36,20 @@ Once you are in the website with localhost <br/>
  Press Choose Files<br/>
  <img width="937" height="523" alt="image" src="https://github.com/user-attachments/assets/80249948-8f57-4c70-a6e8-ad142bce99bc" /><br/>
  Once you see the directory , choose the folder and press upload.(make sure the folder must have pdf file , otherwise it cannot work)<br/>
+<img width="932" height="379" alt="image" src="https://github.com/user-attachments/assets/6a9429d8-656c-4901-a879-62c52360d2c3" /><br/>
+<br/>
+Minimized:<br/>
+<br/>
+Maximize:
+<img width="883" height="281" alt="image" src="https://github.com/user-attachments/assets/743c7228-66c7-41a2-8dad-804e71d09b1b" /> <br/>
+<img width="883" height="832" alt="image" src="https://github.com/user-attachments/assets/0e728b22-93a0-40de-911e-f50f42bc107e" /> <br/>
+
+ Once you finalize the Folder that you want to convert , Press Convert Button and let it run by itself<br/>
+<br/>
+Once all the files are finished , press the download button for serperate document or Download & merged for both seperated and merged document(all drawings in one document). <br/>
+
  
+
  
 
 
