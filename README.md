@@ -31,6 +31,27 @@ Once it is finalized , press the Create credentials button <br/> <br/>
 </h1>
 
 --- 
+# Check Api Usage
+Press Check Usage button 
+
+<img width="1898" height="930" alt="image" src="https://github.com/user-attachments/assets/011ca2d5-8596-4431-8b86-3527fb4cae99" />
+
+After pressing the Check Usage Button : 
+
+<img width="709" height="337" alt="image" src="https://github.com/user-attachments/assets/0dcecce2-f465-4084-808f-90444d589bad" /> 
+
+Generate Report <br/>
+
+# Report Usage : 
+
+---
+
+<img width="705" height="470" alt="image" src="https://github.com/user-attachments/assets/81ab684e-bdf0-4fb7-9e59-25f94fba7f6f" /><br/>
+this is an example image , you can download the report or screenshot to indicate yourself how many usage you use and if you want to find out how many uses left.
+Calculate 500 - (based on how many uses in the Usage report) 
+
+
+---
 
 After you create the API please follow the command or fill in the set_adobe_pdf_env.ps1 <br />
 $env:PDF_SERVICES_CLIENT_ID = "PASTE_CLIENT_ID_HERE" <br/>
