@@ -23,7 +23,9 @@ This is personal info step: <br/>
 <img width="634" height="499" alt="image" src="https://github.com/user-attachments/assets/f4c47d6d-780d-4cf6-b82c-47a3379bb86a" /><br/>
 with cilent secret <br/>
 <img width="650" height="439" alt="image" src="https://github.com/user-attachments/assets/1eb4335a-379d-4e72-b4ae-203c9c44bd8c" /><br/>
-# $${\color{red} Warning&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Please&nbsp;keep&nbsp;this&nbsp;personally&nbsp;for&nbsp;your&nbsp;own&nbsp;use}$$
+<h1 style="color:red;">
+  Warning : Please keep this personally for your own use
+</h1>
 
 --- 
 
