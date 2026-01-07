@@ -41,7 +41,7 @@ Once you are in the website with localhost <br/>
 Minimized:<br/>
 <img width="933" height="562" alt="image" src="https://github.com/user-attachments/assets/94deacdf-913b-42ef-b8d5-5f79acbbdd5c" />
 <br/>
-Maximize:
+Maximize: <br/>
 <img width="883" height="281" alt="image" src="https://github.com/user-attachments/assets/743c7228-66c7-41a2-8dad-804e71d09b1b" /> <br/>
 <img width="883" height="832" alt="image" src="https://github.com/user-attachments/assets/0e728b22-93a0-40de-911e-f50f42bc107e" /> <br/>
  Once you finalize the Folder that you want to convert , Press Convert Button and let it run by itself<br/>
