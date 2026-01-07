@@ -19,9 +19,12 @@ Go to https://developer.adobe.com/document-services/apis/pdf-services/#
 <img width="1381" height="759" alt="image" src="https://github.com/user-attachments/assets/31e7b07d-3ca2-4622-9325-1139ddf0169c" /> <br/>
 when create credentials , name your Credentials Name , and tick By creating credentials, you are agreeing to our developer terms. <br/>
 Once it is finalized , press the Create credentials button <br/> <br/>
-This is personal info step: <br/>
+# Personal info:
+
+
 <img width="634" height="499" alt="image" src="https://github.com/user-attachments/assets/f4c47d6d-780d-4cf6-b82c-47a3379bb86a" /><br/>
-with cilent secret <br/>
+# Personal info  with cilent secret 
+
 <img width="650" height="439" alt="image" src="https://github.com/user-attachments/assets/1eb4335a-379d-4e72-b4ae-203c9c44bd8c" /><br/>
 <h1 style="color:red;">
   Warning : Please keep your API personally for your own use :
