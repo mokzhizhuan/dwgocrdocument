@@ -1,4 +1,38 @@
-only drawing file convertor <br/>
+
+[pythondownloadinstruction.txt](https://github.com/user-attachments/files/24467423/pythondownloadinstruction.txt)Drawing file convertor guidelines , Requirements please open[UploadingTo “download” (create) venv311 first and then activate it with your Activate.ps1, use these steps in PowerShell on Windows.
+​
+
+1. Create the Python 3.11 virtualenv
+From PowerShell:
+
+powershell
+# Go to the folder where you want the venv folder to live
+cd "C:/Users/MokZhiZhuan/OneDrive - WINSYS TECHNOLOGY PTE LTD/Documents/AutocadPDFconvert"
+
+# Create virtual environment named venv311 using your default Python 3.11
+python -m venv venv311
+This will create C:/Users/MokZhiZhuan/OneDrive - WINSYS TECHNOLOGY PTE LTD/Documents/AutocadPDFconvert/venv311 with the Scripts/Activate.ps1 file inside.
+​
+
+If you have multiple Python versions and want to force 3.11 explicitly, point to its python.exe:
+
+powershell
+"C:/Path/To/Python311/python.exe" -m venv venv311
+2. Allow running the activation script (once per user)
+If you have not enabled script execution yet:
+
+powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+3. Activate venv311 with Activate.ps1
+Now activate the newly created venv:
+
+powershell
+& "C:/Users/MokZhiZhuan/OneDrive - WINSYS TECHNOLOGY PTE LTD/Documents/AutocadPDFconvert/venv311/Scripts/Activate.ps1"
+Your PowerShell prompt should now show something like (venv311) at the start, meaning the virtual environment is active and all python / pip commands are using Python 3.11 inside this venv.
+​
+After that run pip install -r requirements.txt pythondownloadinstruction.txt…]()
+​
+
 Guidelines: <br/>
 Create Adobe Account(each account only have 500 uses per month)<br/>
 Go to https://developer.adobe.com/document-services/apis/pdf-services/#
