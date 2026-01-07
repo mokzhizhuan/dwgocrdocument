@@ -31,7 +31,7 @@ Once it is finalized , press the Create credentials button <br/> <br/>
 </h1>
 
 --- 
-# Check Api Usage
+# Check Api Usage :
 Press Check Usage button 
 
 <img width="1898" height="930" alt="image" src="https://github.com/user-attachments/assets/011ca2d5-8596-4431-8b86-3527fb4cae99" />
