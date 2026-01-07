@@ -4,7 +4,6 @@ Please read the text document below to activate python 3.11
 Install the text file <br/>
 [requirements.txt](https://github.com/user-attachments/files/24467460/requirements.txt) <br/>
 --- 
-<br/>
 # Guidelines: 
 
 --- 
@@ -12,12 +11,11 @@ Install the text file <br/>
 Create Adobe Account(each account only have 500 uses per month)<br/>
 Go to https://developer.adobe.com/document-services/apis/pdf-services/#
 <img width="1887" height="590" alt="image" src="https://github.com/user-attachments/assets/4a6008d5-b289-4e0a-b81e-ceae3266d552" />
-<br/>
-<br/>
+
 # Create Credentials 
 
 --- 
-<br/>
+
 <img width="1381" height="759" alt="image" src="https://github.com/user-attachments/assets/31e7b07d-3ca2-4622-9325-1139ddf0169c" /> <br/>
 when create credentials , name your Credentials Name , and tick By creating credentials, you are agreeing to our developer terms. <br/>
 Once it is finalized , press the Create credentials button <br/> <br/>
@@ -26,7 +24,7 @@ This is personal info step: <br/>
 with cilent secret <br/>
 <img width="650" height="439" alt="image" src="https://github.com/user-attachments/assets/1eb4335a-379d-4e72-b4ae-203c9c44bd8c" /><br/>
 # $${\color{red} Warning&nbsp;&nbsp;:&nbsp;Please&nbsp;keep&nbsp;this&nbsp;personally&nbsp;for&nbsp;your&nbsp;own&nbsp;use}$$
-<br/> 
+
 
 --- 
 <br/>
